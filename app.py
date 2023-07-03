@@ -3,8 +3,7 @@ import os
 
 import aws_cdk as cdk
 
-from cdk_python_docker_example.cdk_python_docker_example_stack import CdkPythonDockerExampleStack
-
+from lib.cdk_python_docker_example_stack import CdkPythonDockerExampleStack
 
 app = cdk.App()
 CdkPythonDockerExampleStack(app, "CdkPythonDockerExampleStack",
